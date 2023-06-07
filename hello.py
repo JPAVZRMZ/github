@@ -7,3 +7,4 @@ c = 3
 
 print("The sum of a,b and c is: \n")
 print(a+b+c)
+print("love")
