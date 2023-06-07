@@ -26,4 +26,4 @@ git push --set-upstream origin <branch name> @Crea el branch en github
 
 git merge <branch that will be merge to current one> @une los cambios de dos diferentes branches
 
-
+git rm <filename> @Eliminar archivos 
