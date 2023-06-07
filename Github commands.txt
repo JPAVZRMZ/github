@@ -1,0 +1,29 @@
+code <filename> @Crea un archivo en VSCode
+
+git clone <url> @Clona todo el repositorio de github a tu computadora
+
+git add <filename> @Pone el archivo en una canasta para cuando se haga el commit, si un archivo no se encuntra en la canasta add, entonces no se va a hacer el commit de esos archivos
+
+git commit -m "Mensaje" @La -m significa mensaje y en el mensaje ponemos los cambios que hicimos al documento para poder llevar un trackeo. Se puede usar git commit -am "Mensaje", la -a es de add y agreaga al add todos los archivos modificados
+
+
+git push @Manda todos los cambios al servidor de github para que se actualice.
+
+git status @ nos da un status de lo que esta pasando con git y nuestros archivos
+
+git pull @Con este comando jalas los archivos del servidor
+
+git log @Nos da una lista de todos los commits que hemos realizado en nuestro proyecto 
+
+git reset <commit hash> @Resetea el archivo al commit que seleccionemos. Control de versiones
+
+git branch @Nos despliega la lista de branches que tenemos
+git branch -D <branch name> @Elimina la branch que seleccionemos
+
+git checkout <branch name> @Nos mueve de branch para poder trabajar en ella
+git checkout -b <branch name> @Crea una branch nueva
+git push --set-upstream origin <branch name> @Crea el branch en github
+
+git merge <branch that will be merge to current one> @une los cambios de dos diferentes branches
+
+
