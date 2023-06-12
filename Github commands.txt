@@ -19,6 +19,7 @@ git reset <commit hash> @Resetea el archivo al commit que seleccionemos. Control
 
 git branch @Nos despliega la lista de branches que tenemos
 git branch -D <branch name> @Elimina la branch que seleccionemos
+git branch -m <branch name> @Renombrar una rama
 
 git checkout <branch name> @Nos mueve de branch para poder trabajar en ella
 git checkout -b <branch name> @Crea una branch nueva
