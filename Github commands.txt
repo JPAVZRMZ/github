@@ -8,6 +8,8 @@ git commit -m "Mensaje" @La -m significa mensaje y en el mensaje ponemos los cam
 
 
 git push @Manda todos los cambios al servidor de github para que se actualice.
+git push --set-upstream origin <branch name> @Crea el branch en github
+
 
 git status @ nos da un status de lo que esta pasando con git y nuestros archivos
 
@@ -23,7 +25,6 @@ git branch -m <branch name> @Renombrar una rama
 
 git checkout <branch name> @Nos mueve de branch para poder trabajar en ella
 git checkout -b <branch name> @Crea una branch nueva
-git push --set-upstream origin <branch name> @Crea el branch en github
 
 git merge <branch that will be merge to current one> @une los cambios de dos diferentes branches
 
