@@ -6,6 +6,10 @@ git add <filename> @Pone el archivo en una canasta para cuando se haga el commit
 
 git commit -m "Mensaje" @La -m significa mensaje y en el mensaje ponemos los cambios que hicimos al documento para poder llevar un trackeo. Se puede usar git commit -am "Mensaje", la -a es de add y agreaga al add todos los archivos modificados
 
+git stash @Es generar un commit local lo que no afecta y no crea un commit tal cual
+git stash list @ Lista los stash disponibles 
+git stash pop @Nos regresa los cambios guardados localmente 
+git stahs drop @Elimina los stah del sistema
 
 git push @Manda todos los cambios al servidor de github para que se actualice.
 git push --set-upstream origin <branch name> @Crea el branch en github
@@ -31,8 +35,11 @@ git reset --hard <commit hash> @Sirve tanto para eliminar como para recuperar co
 
 
 git branch @Nos despliega la lista de branches que tenemos
+git branch <branch name> @Crea una rama con ese nombre
 git branch -D <branch name> @Elimina la branch que seleccionemos
 git branch -m <branch name> @Renombrar una rama
+
+git switch <branch name> @Nos mueve a la rama que seleccionemos
 
 git checkout <file name> @Nos regresa nuestro último archivo commit de ese archivo
 git checkout <branch name> @Nos mueve de branch para poder trabajar en ella
