@@ -9,7 +9,7 @@ git commit -m "Mensaje" @La -m significa mensaje y en el mensaje ponemos los cam
 git stash @Es generar un commit local lo que no afecta y no crea un commit tal cual
 git stash list @ Lista los stash disponibles 
 git stash pop @Nos regresa los cambios guardados localmente 
-git stahs drop @Elimina los stah del sistema
+git stash drop @Elimina los stah del sistema
 
 git push @Manda todos los cambios al servidor de github para que se actualice.
 git push --set-upstream origin <branch name> @Crea el branch en github
