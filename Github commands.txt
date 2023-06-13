@@ -32,8 +32,6 @@ git reset <commit hash> @Resetea el archivo al commit que seleccionemos. Control
 git reset --hard <commit hash> @Sirve tanto para eliminar como para recuperar commits que hemos regresado/perdido
 
 
-
-
 git branch @Nos despliega la lista de branches que tenemos
 git branch <branch name> @Crea una rama con ese nombre
 git branch -D <branch name> @Elimina la branch que seleccionemos
