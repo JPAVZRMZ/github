@@ -15,17 +15,36 @@ git status @ nos da un status de lo que esta pasando con git y nuestros archivos
 
 git pull @Con este comando jalas los archivos del servidor
 
+git diff @nos marca las diferencias entre el último código commit y el actual
+
+
 git log @Nos da una lista de todos los commits que hemos realizado en nuestro proyecto 
+git reflog @Nos deja ver el historial de interacciones en nuestro git
+git log --graph --decorate --all --oneline
+git config --global alias.<nombre> "<lo que queramos configurar para default"
+
 
 git reset <commit hash> @Resetea el archivo al commit que seleccionemos. Control de versiones
+git reset --hard <commit hash> @Sirve tanto para eliminar como para recuperar commits que hemos regresado/perdido
+
+
+
 
 git branch @Nos despliega la lista de branches que tenemos
 git branch -D <branch name> @Elimina la branch que seleccionemos
 git branch -m <branch name> @Renombrar una rama
 
+git checkout <file name> @Nos regresa nuestro último archivo commit de ese archivo
 git checkout <branch name> @Nos mueve de branch para poder trabajar en ella
 git checkout -b <branch name> @Crea una branch nueva
 
 git merge <branch that will be merge to current one> @une los cambios de dos diferentes branches
 
 git rm <filename> @Eliminar archivos 
+
+code .gitignore @Nos crea un archivo gitignore con la finalidad de agregar las archivos/carpetas que queramos ignorar a la hora de hacer commits
+	Para agregar nos tenemos que ir al archivo y escribir la dirección destino del directorio que 	queremos ignorar a la hora de hacer commit:
+	
+	**/.<Nombre de archivo/directorio>
+
+git tag <nombre del tag> @Nos auyda a generar tags en los diferentes commits para poder identificar de mejor manera ciertos commits
