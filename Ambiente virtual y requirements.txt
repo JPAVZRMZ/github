@@ -1,0 +1,26 @@
+Crear Entorno Virtual
+
+-- Abrir CMD e ir a la carpeta donde se desea colocar el entorno virtual
+-- Si no se tiene la libreria "VirtualEnv" se debe de instalar
+	-- pip install --proxy http://A102731:Prin2023¿@127.0.0.1:9000 --trusted-host pypi.org --trusted-host files.pythonhosted.org virtualenv	
+-- Ejecturar el siguiente comando para crear entorno virtual
+	-- virtualenv -p python3 "nombre del ambiente"
+	-- Ejemplo: virtualenv -p python3 env
+-- Se crea la carpeta "env" en el directorio
+-- Activamos el ambiente
+	-- Para activar el ambiente se debe de acceder a la carpeta .env/Scripts y ejecturar el comando "activate"
+	-- Ejemplo: cd env/Scripts
+			./activate
+
+
+Crear archivo requirements.txt
+
+-- Abrir CMD e ir a la carpeta desdeada para crear el requirements (NOTA: Si no existe un ambiente virtual con las librerias instaladas, el archivo .txt saldrá vacio)
+-- Ejecutar el siguiente comando 
+	-- pip freeze > requirements.txt
+-- Se creará el archivo "requirements.txt" 
+
+Instalar archivo requirement
+
+-- Ejectura el siguiente código 
+	-- pip install -r requirements.txt

@@ -1,0 +1,1 @@
+pip install --proxy http://A102731:Prin2023¿@127.0.0.1:9000 --trusted-host pypi.org --trusted-host files.pythonhosted.org <package_name>
