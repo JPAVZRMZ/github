@@ -34,7 +34,8 @@ git reset --hard <commit hash> @Sirve tanto para eliminar como para recuperar co
 
 git branch @Nos despliega la lista de branches que tenemos
 git branch <branch name> @Crea una rama con ese nombre
-git branch -D <branch name> @Elimina la branch que seleccionemos
+git branch -D <branch name> @Elimina la branch que seleccionemos /Local
+git push origin --delete <remoteBranchName> @Elimina la branch que seleccionemos de github /Remoto
 git branch -m <branch name> @Renombrar una rama
 
 git switch <branch name> @Nos mueve a la rama que seleccionemos
